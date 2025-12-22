@@ -94,6 +94,7 @@ Resume a previous non-interactive session with `codex exec resume <SESSION_ID>` 
 ```shell
 codex exec "Review the change, look for use-after-free issues"
 codex exec resume --last "Fix use-after-free issues"
+codex exec resume --last --image screenshot.png "Explain the crash"
 ```
 
 Only the conversation context is preserved; you must still provide flags to customize Codex behavior.
